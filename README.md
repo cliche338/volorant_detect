@@ -1,24 +1,9 @@
-上次修改 : 241219
+上次修改 : 241222
 
 - code_main.py 
-
-    完全體
         使用方法 : 
             train模型在import下面改 目前有 train train2
             python code_main.py (圖片、資料夾、影片路徑)
-
-- code_main_copy.py
-
-    複製
-        單純用來保存最原始版本
-            用法跟code_main.py一樣
-
-- code_img_detect.py
-- code_video_detect.py
-
-    為其他測試版本
-        使用方法 : 
-            在程式碼內修改圖片或影片路徑 也可以修改.xml檔案選擇主要偵測部分 修改完存檔執行
 
 - Dataset
 
@@ -50,8 +35,8 @@
         |   |   ├── img4.jpg
         │   |   ├── img4.txt
 
-                準備好之後 輸入 yolo train model=yolov5s.pt data=data.yaml epochs=50 開始訓練
-                訓練完之後 輸入 yolo predict model=runs/detect/<project_name>/best.pt source=path/to/test/images (路徑要改)
-                    偵測完的檔案會跑到detect下 (code_main.py全包好了還有show)
+  - 準備好之後 輸入 yolo train model=yolov5s.pt data=data.yaml epochs=50 開始訓練
+  - 訓練完之後 輸入 yolo predict model=runs/detect/<project_name>/best.pt source=path/to/test/images (路徑要改)
+  - 偵測完的檔案會跑到detect下最新的資料夾 (code_main.py全包好了)
 
 
