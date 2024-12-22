@@ -4,7 +4,7 @@ import cv2
 import subprocess
 import threading
 
-MODEL_PATH = 'runs/detect/train5/weights/best.pt' (看你把best.pt放在哪 自己改好)
+MODEL_PATH = 'best.pt' #(看你把best.pt放在哪 自己改好，如果都沒改就不用動)
 
 
 def get_latest_predict_folder(base_folder):
