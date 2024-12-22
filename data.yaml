@@ -1,0 +1,5 @@
+train: D:\code\valo_detect\dataset\tv\train  # 確保這個資料夾存在並包含訓練圖片
+val: D:\code\valo_detect\dataset\tv\val      # 確保這個資料夾存在並包含驗證圖片
+
+nc: 1  # 類別數量
+names: ["enemy"]  # 類別名稱
