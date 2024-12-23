@@ -20,7 +20,8 @@
 - Train
 
     準備好dataset, 內容物必須包含
-        ```dataset/
+  ```
+        dataset/
         ├── train/
         │   ├── images/
         │   │   ├── img1.jpg
@@ -33,7 +34,9 @@
         │   │   ├── img3.jpg
         │   │   ├── img3.txt
         |   |   ├── img4.jpg
-        │   |   ├── img4.txt```
+        │   |   ├── img4.txt
+
+  ```
 
   - 準備好之後 輸入 yolo train model=yolov5s.pt data=data.yaml epochs=50 開始訓練
   - 訓練完之後 輸入 yolo predict model=runs/detect/<project_name>/best.pt source=path/to/test/images (路徑要改) (記得把自己best.pt的路徑設置好)
