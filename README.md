@@ -37,10 +37,12 @@
         │   |   ├── img4.txt
 
   ```
+  - 記得載一下yolo
 
   - 準備好之後 輸入 yolo train model=yolov5s.pt data=data.yaml epochs=50 開始訓練
   - 訓練完之後 輸入 yolo predict model=runs/detect/<project_name>/best.pt source=path/to/test/images (路徑要改) (記得把自己best.pt的路徑設置好)
   - 偵測完的檔案會跑到detect下最新的資料夾 (code_main.py全包好了)
   - 圖片影片檔案請自己準備ˋˊ
+  
 
 
