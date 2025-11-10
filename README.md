@@ -1,5 +1,7 @@
 # ⚔️ VALORANT Enemy Detector (By YOLOv5)
 
+⭐⭐⭐Just my final project of crouse "Introduction to Imaging Processing" in college. It just can detect the enemy in pictures or videos, can't detect in real gameplay. IT ISN'T A CHEATING PROJECT⭐⭐⭐
+
 This is a complete project for training and running a **YOLOv5** object detection model to detect enemies in VALORANT gameplay. This was developed as a solo final project for my Image Processing course.
 
 The project can be used in two ways:
