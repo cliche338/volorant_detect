@@ -1,4 +1,4 @@
-# ⚔️ VALORANT Enemy Detector (YOLOv5)
+# ⚔️ VALORANT Enemy Detector (By YOLOv5)
 
 This is a complete project for training and running a **YOLOv5** object detection model to detect enemies in VALORANT gameplay. This was developed as a solo final project for my Image Processing course.
 
